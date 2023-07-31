@@ -13,7 +13,7 @@ start = datetime.datetime(2013,6,1)
 end = datetime.datetime(2023,6,1)
 data = yfinance.download('SPY', start, end)
 ```
-Next, calculate the past volatility using NumPy's standard deviation function. This standard deviation will be used in our distribution.  
+Next, calculate the past volatility using Numpy's standard deviation function. This standard deviation will be used in our distribution.  
 ```
 returns = data['Adj Close'].pct_change()
 vol = returns.std()
@@ -43,3 +43,5 @@ However, one simulation is not very useful. Instead, we can generate many differ
   
 ![myplot5](https://github.com/James-Begin/Python-Monte-Carlo-Simulation/assets/103123677/20e658d5-064d-402a-be0d-15e529218c27)  
 *1000 different years of simulated prices of the S&P 500*  
+## Analysis
+After simulating these prices, we can see how Monte Carlo can provide a wide range of possible scenarios. However, one vital assumption we are making is that the market returns are normally distributed. With extreme events like financial crashes and recessions happening somewhat often, a more fat-tailed distribution may be more suitable for simulating market returns. Using other distributions readily available in Numpy, we can analyze and compare how they can make a difference in the accuracy of our simulations.
