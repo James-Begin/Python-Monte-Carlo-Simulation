@@ -60,4 +60,4 @@ Here we can see how the fatter tailed Laplace distribution affects the returns. 
 *10000 simulated years of SP500 drawing randomly from the Logistic distribution*  
   
 ![myplot17](https://github.com/James-Begin/Python-Monte-Carlo-Simulation/assets/103123677/aaa02e2b-16b9-404e-914d-1a199529d1b9)  
-Here, we can see how the fatter tailed Laplace distribution affects the returns. Here the mean final price is $415.93 and shows a single standard deviation change of about 32%.  
+Here, we can see how the fatter tailed Laplace distribution affects the returns. In this case, the mean final price is $415.93 and shows a single standard deviation change of about 32%.  
