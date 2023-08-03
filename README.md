@@ -44,7 +44,7 @@ However, one simulation is not very useful. Instead, we can generate many differ
 ![myplot5](https://github.com/James-Begin/Python-Monte-Carlo-Simulation/assets/103123677/20e658d5-064d-402a-be0d-15e529218c27)  
 *1000 different years of simulated prices of the S&P 500*  
 ## Analysis
-After simulating these prices, we can see how Monte Carlo can provide a wide range of possible scenarios. However, one vital assumption we are making is that the market returns are normally distributed. With extreme events like financial crashes and recessions happening somewhat often, a more fat-tailed distribution may be more suitable for simulating market returns. Using other distributions readily available in Numpy, we can analyze and compare how they can make a difference in the accuracy of our simulations.  
+After simulating these prices, we can see how Monte Carlo can provide a wide range of possible scenarios. However, one vital assumption we are making is that the market returns are normally distributed. With extreme events like financial crashes and recessions happening somewhat often, a more fat-tailed distribution may be more suitable for simulating market returns. Using other distributions readily available in Numpy, we can analyze and compare how they can make a difference in the accuracy of our simulations. 
 By plotting the prices after one year, we can see how the returns across the different simulations are distributed:  
 ![myplot11](https://github.com/James-Begin/Python-Monte-Carlo-Simulation/assets/103123677/17f5be98-fb61-41a2-a246-3b688558656d)  \
 Here, we can see how the returns are mostly normally distributed with a mean of $416.45 (denoted by the dashed red line), very near to the actual closing price of $421.82 (01/06/23). Additionally, our simulation shows a single standard deviation change of about 18%. Meaning that our simulation shows that 67% of the time SPY will increase or decrease by 18% in one year (denoted by the dashed black lines).  
@@ -61,3 +61,6 @@ Here we can see how the fatter tailed Laplace distribution affects the returns. 
   
 ![myplot17](https://github.com/James-Begin/Python-Monte-Carlo-Simulation/assets/103123677/aaa02e2b-16b9-404e-914d-1a199529d1b9)  
 Here, we can see how the fatter tailed Laplace distribution affects the returns. In this case, the mean final price is $415.93 and shows a single standard deviation change of about 32%.  
+
+## Conclusion  
+Ultimately, Monte Carlo Simulation is a potent analytical tool with diverse applications. Its capabilities extend to estimating and forecasting future volatility, offering valuable insights in intricate and uncertain domains, notably financial markets. These simulations play a significant role in multiple fields, including risk management, portfolio optimization, derivative pricing, stress testing, and various others.
