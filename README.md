@@ -51,13 +51,13 @@ Here, we can see how the returns are mostly normally distributed with a mean of 
 Using different distributions, we can try to better represent the actual distribution of the returns of the market:  
   
 ![myplot14](https://github.com/James-Begin/Python-Monte-Carlo-Simulation/assets/103123677/0e0a5752-d5bc-4d60-bbd6-5a3c2b2c3028)  
-*10000 simulated years of SP500 drawing randomly from the Laplace distribution*  
+*10000 simulated years of SP500 returns drawing randomly from the Laplace distribution*  
   
 ![myplot15](https://github.com/James-Begin/Python-Monte-Carlo-Simulation/assets/103123677/ce5a56b5-5a53-4828-913f-5e6db8d40f00)  
 Here we can see how the fatter tailed Laplace distribution affects the returns. Here the mean final price is $417.23 and shows a single standard deviation change of about 25%.  
   
 ![myplot16](https://github.com/James-Begin/Python-Monte-Carlo-Simulation/assets/103123677/0269b0cd-7780-48a4-94ba-d980c4276190)  
-*10000 simulated years of SP500 drawing randomly from the Logistic distribution*  
+*10000 simulated years of SP500 returns drawing randomly from the Logistic distribution*  
   
 ![myplot17](https://github.com/James-Begin/Python-Monte-Carlo-Simulation/assets/103123677/aaa02e2b-16b9-404e-914d-1a199529d1b9)  
 Here, we can see how the fatter tailed Laplace distribution affects the returns. In this case, the mean final price is $415.93 and shows a single standard deviation change of about 32%.  
